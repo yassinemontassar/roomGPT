@@ -10,7 +10,7 @@ function UploadDnd() {
   const setImageUrl=useImage((state:any)=>state.setImageUrl)
 
   const options = {
-    apiKey: process.env.NEXT_PUBLIC_BYTESCALE_API_KEY,
+    apiKey: "process.env.NEXT_PUBLIC_BYTESCALE_API_KEY",
     editor: {
       images: {
         crop: false,
